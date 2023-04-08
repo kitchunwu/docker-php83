@@ -1,0 +1,775 @@
+2023/02/28 12:55:18 [notice] 1#1: using the "epoll" event method
+2023/02/28 12:55:18 [notice] 1#1: nginx/1.21.5
+2023/02/28 12:55:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/28 12:55:18 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/02/28 12:55:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/28 12:55:18 [notice] 1#1: start worker processes
+2023/02/28 12:55:18 [notice] 1#1: start worker process 22
+2023/02/28 12:55:18 [notice] 1#1: start worker process 23
+2023/02/28 12:55:18 [notice] 1#1: start worker process 24
+2023/02/28 12:55:18 [notice] 1#1: start worker process 25
+2023/02/28 12:55:55 [error] 22#22: *1 open() "/var/www/html/1.html" failed (2: No such file or directory), client: 192.168.96.1, server: www.kitengine.com, request: "GET /1.html HTTP/1.1", host: "www.kitengine.com"
+2023/02/28 12:57:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/28 12:57:09 [notice] 23#23: gracefully shutting down
+2023/02/28 12:57:09 [notice] 25#25: gracefully shutting down
+2023/02/28 12:57:09 [notice] 22#22: gracefully shutting down
+2023/02/28 12:57:09 [notice] 24#24: gracefully shutting down
+2023/02/28 12:57:09 [notice] 23#23: exiting
+2023/02/28 12:57:09 [notice] 23#23: exit
+2023/02/28 12:57:09 [notice] 25#25: exiting
+2023/02/28 12:57:09 [notice] 22#22: exiting
+2023/02/28 12:57:09 [notice] 24#24: exiting
+2023/02/28 12:57:09 [notice] 24#24: exit
+2023/02/28 12:57:09 [notice] 25#25: exit
+2023/02/28 12:57:09 [notice] 22#22: exit
+2023/02/28 12:57:09 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/02/28 12:57:09 [notice] 1#1: worker process 24 exited with code 0
+2023/02/28 12:57:09 [notice] 1#1: worker process 25 exited with code 0
+2023/02/28 12:57:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/28 12:57:09 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/02/28 12:57:09 [notice] 1#1: worker process 23 exited with code 0
+2023/02/28 12:57:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/28 12:57:09 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/02/28 12:57:09 [notice] 1#1: worker process 22 exited with code 0
+2023/02/28 12:57:09 [notice] 1#1: exit
+2023/02/28 12:57:09 [notice] 1#1: using the "epoll" event method
+2023/02/28 12:57:09 [notice] 1#1: nginx/1.21.5
+2023/02/28 12:57:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/28 12:57:09 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/02/28 12:57:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/28 12:57:09 [notice] 1#1: start worker processes
+2023/02/28 12:57:09 [notice] 1#1: start worker process 22
+2023/02/28 12:57:09 [notice] 1#1: start worker process 23
+2023/02/28 12:57:09 [notice] 1#1: start worker process 24
+2023/02/28 12:57:09 [notice] 1#1: start worker process 25
+2023/02/28 12:57:12 [error] 22#22: *1 open() "/var/www/html/1.html" failed (2: No such file or directory), client: 192.168.96.1, server: www.kitengine.com, request: "GET /1.html HTTP/1.1", host: "www.kitengine.com"
+2023/02/28 12:57:13 [error] 22#22: *1 open() "/var/www/html/1.html" failed (2: No such file or directory), client: 192.168.96.1, server: www.kitengine.com, request: "GET /1.html HTTP/1.1", host: "www.kitengine.com"
+2023/02/28 12:57:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/28 12:57:20 [notice] 22#22: gracefully shutting down
+2023/02/28 12:57:20 [notice] 23#23: gracefully shutting down
+2023/02/28 12:57:20 [notice] 24#24: gracefully shutting down
+2023/02/28 12:57:20 [notice] 25#25: gracefully shutting down
+2023/02/28 12:57:20 [notice] 23#23: exiting
+2023/02/28 12:57:20 [notice] 24#24: exiting
+2023/02/28 12:57:20 [notice] 23#23: exit
+2023/02/28 12:57:20 [notice] 25#25: exiting
+2023/02/28 12:57:20 [notice] 24#24: exit
+2023/02/28 12:57:20 [notice] 25#25: exit
+2023/02/28 12:57:20 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/02/28 12:57:20 [notice] 1#1: worker process 23 exited with code 0
+2023/02/28 12:57:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/28 12:57:20 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/02/28 12:57:20 [notice] 1#1: worker process 24 exited with code 0
+2023/02/28 12:57:20 [notice] 1#1: worker process 25 exited with code 0
+2023/02/28 12:57:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/28 12:57:34 [notice] 1#1: using the "epoll" event method
+2023/02/28 12:57:34 [notice] 1#1: nginx/1.21.5
+2023/02/28 12:57:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/28 12:57:34 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/02/28 12:57:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/28 12:57:34 [notice] 1#1: start worker processes
+2023/02/28 12:57:34 [notice] 1#1: start worker process 22
+2023/02/28 12:57:34 [notice] 1#1: start worker process 23
+2023/02/28 12:57:34 [notice] 1#1: start worker process 24
+2023/02/28 12:57:34 [notice] 1#1: start worker process 25
+2023/02/28 12:57:44 [crit] 23#23: *2 connect() to unix:/tmp/php-cgi.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.112.1, server: www.kitengine.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/tmp/php-cgi.sock:", host: "www.kitengine.com"
+2023/02/28 13:12:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/28 13:12:20 [notice] 23#23: gracefully shutting down
+2023/02/28 13:12:20 [notice] 25#25: gracefully shutting down
+2023/02/28 13:12:20 [notice] 24#24: gracefully shutting down
+2023/02/28 13:12:20 [notice] 22#22: gracefully shutting down
+2023/02/28 13:12:20 [notice] 23#23: exiting
+2023/02/28 13:12:20 [notice] 25#25: exiting
+2023/02/28 13:12:20 [notice] 24#24: exiting
+2023/02/28 13:12:20 [notice] 22#22: exiting
+2023/02/28 13:12:20 [notice] 22#22: exit
+2023/02/28 13:12:20 [notice] 23#23: exit
+2023/02/28 13:12:20 [notice] 25#25: exit
+2023/02/28 13:12:20 [notice] 24#24: exit
+2023/02/28 13:12:20 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/02/28 13:12:20 [notice] 1#1: worker process 25 exited with code 0
+2023/02/28 13:12:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/28 13:12:20 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/02/28 13:12:20 [notice] 1#1: worker process 22 exited with code 0
+2023/02/28 13:12:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/28 13:12:20 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/02/28 13:12:20 [notice] 1#1: worker process 24 exited with code 0
+2023/02/28 13:12:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/28 13:12:20 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/02/28 13:12:20 [notice] 1#1: worker process 23 exited with code 0
+2023/02/28 13:12:20 [notice] 1#1: exit
+2023/02/28 13:15:39 [notice] 1#1: using the "epoll" event method
+2023/02/28 13:15:39 [notice] 1#1: nginx/1.21.5
+2023/02/28 13:15:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/28 13:15:39 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/02/28 13:15:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/28 13:15:39 [notice] 1#1: start worker processes
+2023/02/28 13:15:39 [notice] 1#1: start worker process 22
+2023/02/28 13:15:39 [notice] 1#1: start worker process 23
+2023/02/28 13:15:39 [notice] 1#1: start worker process 24
+2023/02/28 13:15:39 [notice] 1#1: start worker process 25
+2023/03/01 00:23:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 00:23:32 [notice] 23#23: gracefully shutting down
+2023/03/01 00:23:32 [notice] 23#23: exiting
+2023/03/01 00:23:32 [notice] 25#25: gracefully shutting down
+2023/03/01 00:23:32 [notice] 24#24: gracefully shutting down
+2023/03/01 00:23:32 [notice] 22#22: gracefully shutting down
+2023/03/01 00:23:32 [notice] 23#23: exit
+2023/03/01 00:23:32 [notice] 25#25: exiting
+2023/03/01 00:23:32 [notice] 24#24: exiting
+2023/03/01 00:23:32 [notice] 22#22: exiting
+2023/03/01 00:23:32 [notice] 25#25: exit
+2023/03/01 00:23:32 [notice] 24#24: exit
+2023/03/01 00:23:32 [notice] 22#22: exit
+2023/03/01 00:23:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/01 00:23:32 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 00:23:32 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 00:23:32 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 00:23:32 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 00:23:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 00:23:32 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 00:23:32 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 00:23:32 [notice] 1#1: exit
+2023/03/01 00:23:38 [notice] 1#1: using the "epoll" event method
+2023/03/01 00:23:38 [notice] 1#1: nginx/1.21.5
+2023/03/01 00:23:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 00:23:38 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 00:23:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 00:23:38 [notice] 1#1: start worker processes
+2023/03/01 00:23:38 [notice] 1#1: start worker process 22
+2023/03/01 00:23:38 [notice] 1#1: start worker process 23
+2023/03/01 00:23:38 [notice] 1#1: start worker process 24
+2023/03/01 00:23:38 [notice] 1#1: start worker process 25
+2023/03/01 00:27:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 00:27:07 [notice] 22#22: gracefully shutting down
+2023/03/01 00:27:07 [notice] 23#23: gracefully shutting down
+2023/03/01 00:27:07 [notice] 24#24: gracefully shutting down
+2023/03/01 00:27:07 [notice] 25#25: gracefully shutting down
+2023/03/01 00:27:07 [notice] 22#22: exiting
+2023/03/01 00:27:07 [notice] 23#23: exiting
+2023/03/01 00:27:07 [notice] 24#24: exiting
+2023/03/01 00:27:07 [notice] 25#25: exiting
+2023/03/01 00:27:07 [notice] 22#22: exit
+2023/03/01 00:27:07 [notice] 23#23: exit
+2023/03/01 00:27:07 [notice] 24#24: exit
+2023/03/01 00:27:07 [notice] 25#25: exit
+2023/03/01 00:27:07 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 00:27:07 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 00:27:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 00:27:07 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/01 00:27:07 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 00:27:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 00:27:07 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 00:27:07 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 00:27:07 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 00:27:07 [notice] 1#1: exit
+2023/03/01 00:27:12 [notice] 1#1: using the "epoll" event method
+2023/03/01 00:27:12 [notice] 1#1: nginx/1.21.5
+2023/03/01 00:27:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 00:27:12 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 00:27:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 00:27:12 [notice] 1#1: start worker processes
+2023/03/01 00:27:12 [notice] 1#1: start worker process 22
+2023/03/01 00:27:12 [notice] 1#1: start worker process 23
+2023/03/01 00:27:12 [notice] 1#1: start worker process 24
+2023/03/01 00:27:12 [notice] 1#1: start worker process 25
+2023/03/01 00:35:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 00:35:19 [notice] 22#22: gracefully shutting down
+2023/03/01 00:35:19 [notice] 23#23: gracefully shutting down
+2023/03/01 00:35:19 [notice] 24#24: gracefully shutting down
+2023/03/01 00:35:19 [notice] 25#25: gracefully shutting down
+2023/03/01 00:35:19 [notice] 22#22: exiting
+2023/03/01 00:35:19 [notice] 24#24: exiting
+2023/03/01 00:35:19 [notice] 25#25: exiting
+2023/03/01 00:35:19 [notice] 22#22: exit
+2023/03/01 00:35:19 [notice] 24#24: exit
+2023/03/01 00:35:19 [notice] 25#25: exit
+2023/03/01 00:35:20 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 00:35:20 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 00:35:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 00:35:20 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/01 00:35:20 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 00:35:20 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 00:35:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 00:35:20 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 00:36:14 [notice] 1#1: using the "epoll" event method
+2023/03/01 00:36:14 [notice] 1#1: nginx/1.21.5
+2023/03/01 00:36:14 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 00:36:14 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 00:36:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 00:36:14 [notice] 1#1: start worker processes
+2023/03/01 00:36:14 [notice] 1#1: start worker process 22
+2023/03/01 00:36:14 [notice] 1#1: start worker process 23
+2023/03/01 00:36:14 [notice] 1#1: start worker process 24
+2023/03/01 00:36:14 [notice] 1#1: start worker process 25
+2023/03/01 00:36:50 [error] 22#22: *2 open() "/var/www/html/robots.txt" failed (2: No such file or directory), client: 192.168.176.1, server: www.kitengine.com, request: "GET /robots.txt HTTP/1.1", host: "www.kitengine.com"
+2023/03/01 00:37:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 00:37:38 [notice] 22#22: gracefully shutting down
+2023/03/01 00:37:38 [notice] 25#25: gracefully shutting down
+2023/03/01 00:37:38 [notice] 24#24: gracefully shutting down
+2023/03/01 00:37:38 [notice] 23#23: gracefully shutting down
+2023/03/01 00:37:38 [notice] 22#22: exiting
+2023/03/01 00:37:38 [notice] 25#25: exiting
+2023/03/01 00:37:38 [notice] 24#24: exiting
+2023/03/01 00:37:38 [notice] 23#23: exiting
+2023/03/01 00:37:38 [notice] 22#22: exit
+2023/03/01 00:37:38 [notice] 25#25: exit
+2023/03/01 00:37:38 [notice] 24#24: exit
+2023/03/01 00:37:38 [notice] 23#23: exit
+2023/03/01 00:37:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 00:37:38 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 00:37:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 00:37:38 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 00:37:38 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 00:37:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 00:37:38 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/01 00:37:38 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 00:37:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 00:37:38 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/01 00:37:38 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 00:37:38 [notice] 1#1: exit
+2023/03/01 00:37:39 [notice] 1#1: using the "epoll" event method
+2023/03/01 00:37:39 [notice] 1#1: nginx/1.21.5
+2023/03/01 00:37:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 00:37:39 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 00:37:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 00:37:39 [notice] 1#1: start worker processes
+2023/03/01 00:37:39 [notice] 1#1: start worker process 22
+2023/03/01 00:37:39 [notice] 1#1: start worker process 23
+2023/03/01 00:37:39 [notice] 1#1: start worker process 24
+2023/03/01 00:37:39 [notice] 1#1: start worker process 25
+2023/03/01 00:43:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 00:43:46 [notice] 23#23: gracefully shutting down
+2023/03/01 00:43:46 [notice] 22#22: gracefully shutting down
+2023/03/01 00:43:46 [notice] 22#22: exiting
+2023/03/01 00:43:46 [notice] 24#24: gracefully shutting down
+2023/03/01 00:43:46 [notice] 22#22: exit
+2023/03/01 00:43:46 [notice] 25#25: gracefully shutting down
+2023/03/01 00:43:46 [notice] 23#23: exiting
+2023/03/01 00:43:46 [notice] 24#24: exiting
+2023/03/01 00:43:46 [notice] 25#25: exiting
+2023/03/01 00:43:46 [notice] 23#23: exit
+2023/03/01 00:43:46 [notice] 24#24: exit
+2023/03/01 00:43:46 [notice] 25#25: exit
+2023/03/01 00:43:46 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 00:43:46 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 00:43:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 00:43:46 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/01 00:43:46 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 00:43:46 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 00:43:46 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 00:43:46 [notice] 1#1: exit
+2023/03/01 00:48:00 [notice] 1#1: using the "epoll" event method
+2023/03/01 00:48:00 [notice] 1#1: nginx/1.21.5
+2023/03/01 00:48:00 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 00:48:00 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 00:48:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 00:48:00 [notice] 1#1: start worker processes
+2023/03/01 00:48:00 [notice] 1#1: start worker process 22
+2023/03/01 00:48:00 [notice] 1#1: start worker process 23
+2023/03/01 00:48:00 [notice] 1#1: start worker process 24
+2023/03/01 00:48:00 [notice] 1#1: start worker process 25
+2023/03/01 01:05:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 01:05:27 [notice] 22#22: gracefully shutting down
+2023/03/01 01:05:27 [notice] 24#24: gracefully shutting down
+2023/03/01 01:05:27 [notice] 25#25: gracefully shutting down
+2023/03/01 01:05:27 [notice] 23#23: gracefully shutting down
+2023/03/01 01:05:27 [notice] 22#22: exiting
+2023/03/01 01:05:27 [notice] 24#24: exiting
+2023/03/01 01:05:27 [notice] 25#25: exiting
+2023/03/01 01:05:27 [notice] 23#23: exiting
+2023/03/01 01:05:27 [notice] 22#22: exit
+2023/03/01 01:05:27 [notice] 24#24: exit
+2023/03/01 01:05:27 [notice] 25#25: exit
+2023/03/01 01:05:27 [notice] 23#23: exit
+2023/03/01 01:05:27 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 01:05:27 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 01:05:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 01:05:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/01 01:05:27 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 01:05:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 01:05:27 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 01:05:27 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 01:05:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 01:05:27 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/01 01:05:27 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 01:05:27 [notice] 1#1: exit
+2023/03/01 03:30:34 [notice] 1#1: using the "epoll" event method
+2023/03/01 03:30:34 [notice] 1#1: nginx/1.21.5
+2023/03/01 03:30:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 03:30:34 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 03:30:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 03:30:34 [notice] 1#1: start worker processes
+2023/03/01 03:30:34 [notice] 1#1: start worker process 22
+2023/03/01 03:30:34 [notice] 1#1: start worker process 23
+2023/03/01 03:30:34 [notice] 1#1: start worker process 24
+2023/03/01 03:30:34 [notice] 1#1: start worker process 25
+2023/03/01 04:25:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 04:25:31 [notice] 22#22: gracefully shutting down
+2023/03/01 04:25:31 [notice] 23#23: gracefully shutting down
+2023/03/01 04:25:31 [notice] 25#25: gracefully shutting down
+2023/03/01 04:25:31 [notice] 24#24: gracefully shutting down
+2023/03/01 04:25:31 [notice] 22#22: exiting
+2023/03/01 04:25:31 [notice] 24#24: exiting
+2023/03/01 04:25:31 [notice] 23#23: exiting
+2023/03/01 04:25:31 [notice] 25#25: exiting
+2023/03/01 04:25:31 [notice] 22#22: exit
+2023/03/01 04:25:31 [notice] 24#24: exit
+2023/03/01 04:25:31 [notice] 23#23: exit
+2023/03/01 04:25:31 [notice] 25#25: exit
+2023/03/01 04:25:31 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/01 04:25:31 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 04:25:31 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 04:25:31 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 04:25:31 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 04:25:31 [notice] 1#1: exit
+2023/03/01 04:25:35 [notice] 1#1: using the "epoll" event method
+2023/03/01 04:25:35 [notice] 1#1: nginx/1.21.5
+2023/03/01 04:25:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 04:25:35 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 04:25:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 04:25:35 [notice] 1#1: start worker processes
+2023/03/01 04:25:35 [notice] 1#1: start worker process 22
+2023/03/01 04:25:35 [notice] 1#1: start worker process 23
+2023/03/01 04:25:35 [notice] 1#1: start worker process 24
+2023/03/01 04:25:35 [notice] 1#1: start worker process 25
+2023/03/01 04:30:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 04:30:26 [notice] 22#22: gracefully shutting down
+2023/03/01 04:30:26 [notice] 24#24: gracefully shutting down
+2023/03/01 04:30:26 [notice] 25#25: gracefully shutting down
+2023/03/01 04:30:26 [notice] 23#23: gracefully shutting down
+2023/03/01 04:30:26 [notice] 22#22: exiting
+2023/03/01 04:30:26 [notice] 24#24: exiting
+2023/03/01 04:30:26 [notice] 25#25: exiting
+2023/03/01 04:30:26 [notice] 23#23: exiting
+2023/03/01 04:30:26 [notice] 22#22: exit
+2023/03/01 04:30:26 [notice] 24#24: exit
+2023/03/01 04:30:26 [notice] 25#25: exit
+2023/03/01 04:30:26 [notice] 23#23: exit
+2023/03/01 04:30:26 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 04:30:26 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 04:30:26 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 04:30:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 04:30:26 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 04:30:26 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/01 04:30:26 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 04:30:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 04:30:26 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/01 04:30:26 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 04:30:26 [notice] 1#1: exit
+2023/03/01 04:30:31 [notice] 1#1: using the "epoll" event method
+2023/03/01 04:30:31 [notice] 1#1: nginx/1.21.5
+2023/03/01 04:30:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 04:30:31 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 04:30:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 04:30:31 [notice] 1#1: start worker processes
+2023/03/01 04:30:31 [notice] 1#1: start worker process 22
+2023/03/01 04:30:31 [notice] 1#1: start worker process 23
+2023/03/01 04:30:31 [notice] 1#1: start worker process 24
+2023/03/01 04:30:31 [notice] 1#1: start worker process 25
+2023/03/01 04:30:46 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.240.1, server: www.kitengine.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.kitengine.com"
+2023/03/01 04:31:00 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.240.1, server: www.kitengine.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "www.kitengine.com"
+2023/03/01 04:31:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 04:31:09 [notice] 22#22: gracefully shutting down
+2023/03/01 04:31:09 [notice] 23#23: gracefully shutting down
+2023/03/01 04:31:09 [notice] 25#25: gracefully shutting down
+2023/03/01 04:31:09 [notice] 24#24: gracefully shutting down
+2023/03/01 04:31:09 [notice] 22#22: exiting
+2023/03/01 04:31:09 [notice] 25#25: exiting
+2023/03/01 04:31:09 [notice] 24#24: exiting
+2023/03/01 04:31:09 [notice] 22#22: exit
+2023/03/01 04:31:09 [notice] 25#25: exit
+2023/03/01 04:31:09 [notice] 24#24: exit
+2023/03/01 04:31:10 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 04:31:10 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 04:31:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 04:31:10 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/01 04:31:10 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 04:31:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 04:31:10 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 04:31:10 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 04:31:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 04:31:21 [notice] 1#1: using the "epoll" event method
+2023/03/01 04:31:21 [notice] 1#1: nginx/1.21.5
+2023/03/01 04:31:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 04:31:21 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 04:31:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 04:31:21 [notice] 1#1: start worker processes
+2023/03/01 04:31:21 [notice] 1#1: start worker process 22
+2023/03/01 04:31:21 [notice] 1#1: start worker process 23
+2023/03/01 04:31:21 [notice] 1#1: start worker process 24
+2023/03/01 04:31:21 [notice] 1#1: start worker process 25
+2023/03/01 07:47:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 07:47:53 [notice] 23#23: gracefully shutting down
+2023/03/01 07:47:53 [notice] 25#25: gracefully shutting down
+2023/03/01 07:47:53 [notice] 22#22: gracefully shutting down
+2023/03/01 07:47:53 [notice] 24#24: gracefully shutting down
+2023/03/01 07:47:53 [notice] 23#23: exiting
+2023/03/01 07:47:53 [notice] 25#25: exiting
+2023/03/01 07:47:53 [notice] 22#22: exiting
+2023/03/01 07:47:53 [notice] 24#24: exiting
+2023/03/01 07:47:53 [notice] 23#23: exit
+2023/03/01 07:47:53 [notice] 25#25: exit
+2023/03/01 07:47:53 [notice] 22#22: exit
+2023/03/01 07:47:53 [notice] 24#24: exit
+2023/03/01 07:47:53 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 07:47:53 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 07:47:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 07:47:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 07:47:53 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 07:47:53 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 07:47:53 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 07:47:53 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/01 07:47:53 [notice] 1#1: exit
+2023/03/01 15:48:22 [notice] 1#1: using the "epoll" event method
+2023/03/01 15:48:22 [notice] 1#1: nginx/1.21.5
+2023/03/01 15:48:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 15:48:22 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 15:48:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 15:48:22 [notice] 1#1: start worker processes
+2023/03/01 15:48:22 [notice] 1#1: start worker process 22
+2023/03/01 15:48:22 [notice] 1#1: start worker process 23
+2023/03/01 15:48:22 [notice] 1#1: start worker process 24
+2023/03/01 15:48:22 [notice] 1#1: start worker process 25
+2023/03/01 15:53:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 15:53:58 [notice] 22#22: gracefully shutting down
+2023/03/01 15:53:58 [notice] 23#23: gracefully shutting down
+2023/03/01 15:53:58 [notice] 25#25: gracefully shutting down
+2023/03/01 15:53:58 [notice] 24#24: gracefully shutting down
+2023/03/01 15:53:58 [notice] 22#22: exiting
+2023/03/01 15:53:58 [notice] 23#23: exiting
+2023/03/01 15:53:58 [notice] 23#23: exit
+2023/03/01 15:53:58 [notice] 25#25: exiting
+2023/03/01 15:53:58 [notice] 24#24: exiting
+2023/03/01 15:53:58 [notice] 22#22: exit
+2023/03/01 15:53:58 [notice] 25#25: exit
+2023/03/01 15:53:58 [notice] 24#24: exit
+2023/03/01 15:53:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 15:53:58 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 15:53:58 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 15:53:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 15:53:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 15:53:58 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 15:53:58 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 15:53:58 [notice] 1#1: exit
+2023/03/01 16:06:37 [notice] 1#1: using the "epoll" event method
+2023/03/01 16:06:37 [notice] 1#1: nginx/1.21.5
+2023/03/01 16:06:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 16:06:37 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 16:06:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 16:06:37 [notice] 1#1: start worker processes
+2023/03/01 16:06:37 [notice] 1#1: start worker process 22
+2023/03/01 16:06:37 [notice] 1#1: start worker process 23
+2023/03/01 16:06:37 [notice] 1#1: start worker process 24
+2023/03/01 16:06:37 [notice] 1#1: start worker process 25
+2023/03/01 16:07:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 16:07:24 [notice] 22#22: gracefully shutting down
+2023/03/01 16:07:24 [notice] 23#23: gracefully shutting down
+2023/03/01 16:07:24 [notice] 24#24: gracefully shutting down
+2023/03/01 16:07:24 [notice] 25#25: gracefully shutting down
+2023/03/01 16:07:24 [notice] 23#23: exiting
+2023/03/01 16:07:24 [notice] 24#24: exiting
+2023/03/01 16:07:24 [notice] 25#25: exiting
+2023/03/01 16:07:24 [notice] 23#23: exit
+2023/03/01 16:07:24 [notice] 24#24: exit
+2023/03/01 16:07:24 [notice] 25#25: exit
+2023/03/01 16:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/01 16:07:24 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 16:07:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 16:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 16:07:24 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 16:07:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 16:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/01 16:07:24 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 16:07:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 16:07:40 [notice] 1#1: using the "epoll" event method
+2023/03/01 16:07:40 [notice] 1#1: nginx/1.21.5
+2023/03/01 16:07:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 16:07:40 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 16:07:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 16:07:40 [notice] 1#1: start worker processes
+2023/03/01 16:07:40 [notice] 1#1: start worker process 22
+2023/03/01 16:07:40 [notice] 1#1: start worker process 23
+2023/03/01 16:07:40 [notice] 1#1: start worker process 24
+2023/03/01 16:07:40 [notice] 1#1: start worker process 25
+2023/03/01 16:08:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 16:08:06 [notice] 22#22: gracefully shutting down
+2023/03/01 16:08:06 [notice] 25#25: gracefully shutting down
+2023/03/01 16:08:06 [notice] 25#25: exiting
+2023/03/01 16:08:06 [notice] 23#23: gracefully shutting down
+2023/03/01 16:08:06 [notice] 24#24: gracefully shutting down
+2023/03/01 16:08:06 [notice] 22#22: exiting
+2023/03/01 16:08:06 [notice] 25#25: exit
+2023/03/01 16:08:06 [notice] 24#24: exiting
+2023/03/01 16:08:06 [notice] 22#22: exit
+2023/03/01 16:08:06 [notice] 24#24: exit
+2023/03/01 16:08:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 16:08:06 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 16:08:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 16:08:06 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/01 16:08:06 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 16:08:06 [notice] 1#1: worker process 22 exited with code 0
+2023/03/01 16:08:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 16:08:06 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/01 16:09:11 [notice] 1#1: using the "epoll" event method
+2023/03/01 16:09:11 [notice] 1#1: nginx/1.21.5
+2023/03/01 16:09:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 16:09:11 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 16:09:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 16:09:11 [notice] 1#1: start worker processes
+2023/03/01 16:09:11 [notice] 1#1: start worker process 22
+2023/03/01 16:09:11 [notice] 1#1: start worker process 23
+2023/03/01 16:09:11 [notice] 1#1: start worker process 24
+2023/03/01 16:09:11 [notice] 1#1: start worker process 25
+2023/03/01 16:10:43 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 10.10.0.1, server: www.kitengine.com, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.10.3:9000", host: "www.kitengine.com"
+2023/03/01 16:10:44 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 10.10.0.1, server: www.kitengine.com, request: "GET / HTTP/1.1", upstream: "fastcgi://10.10.10.3:9000", host: "www.kitengine.com"
+2023/03/01 16:11:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/01 16:11:05 [notice] 23#23: gracefully shutting down
+2023/03/01 16:11:05 [notice] 22#22: gracefully shutting down
+2023/03/01 16:11:05 [notice] 25#25: gracefully shutting down
+2023/03/01 16:11:05 [notice] 24#24: gracefully shutting down
+2023/03/01 16:11:05 [notice] 23#23: exiting
+2023/03/01 16:11:05 [notice] 25#25: exiting
+2023/03/01 16:11:05 [notice] 23#23: exit
+2023/03/01 16:11:05 [notice] 24#24: exiting
+2023/03/01 16:11:05 [notice] 25#25: exit
+2023/03/01 16:11:05 [notice] 24#24: exit
+2023/03/01 16:11:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/01 16:11:05 [notice] 1#1: worker process 23 exited with code 0
+2023/03/01 16:11:05 [notice] 1#1: worker process 24 exited with code 0
+2023/03/01 16:11:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 16:11:05 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/01 16:11:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/01 16:11:05 [notice] 1#1: worker process 25 exited with code 0
+2023/03/01 16:11:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/01 16:11:19 [notice] 1#1: using the "epoll" event method
+2023/03/01 16:11:19 [notice] 1#1: nginx/1.21.5
+2023/03/01 16:11:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 16:11:19 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 16:11:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 16:11:19 [notice] 1#1: start worker processes
+2023/03/01 16:11:19 [notice] 1#1: start worker process 22
+2023/03/01 16:11:19 [notice] 1#1: start worker process 23
+2023/03/01 16:11:19 [notice] 1#1: start worker process 24
+2023/03/01 16:11:19 [notice] 1#1: start worker process 25
+2023/03/01 16:23:58 [error] 22#22: *9 open() "/var/www/html/public/admin" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin HTTP/1.1", host: "www.kitengine.com"
+2023/03/01 17:25:24 [notice] 1#1: using the "epoll" event method
+2023/03/01 17:25:24 [notice] 1#1: nginx/1.21.5
+2023/03/01 17:25:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/01 17:25:24 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/01 17:25:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/01 17:25:24 [notice] 1#1: start worker processes
+2023/03/01 17:25:24 [notice] 1#1: start worker process 22
+2023/03/01 17:25:24 [notice] 1#1: start worker process 23
+2023/03/01 17:25:24 [notice] 1#1: start worker process 24
+2023/03/01 17:25:24 [notice] 1#1: start worker process 25
+2023/03/01 17:36:37 [error] 22#22: *5 open() "/var/www/html/public/1.html" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /1.html HTTP/1.1", host: "www.kitengine.com"
+2023/03/03 20:20:22 [notice] 1#1: using the "epoll" event method
+2023/03/03 20:20:22 [notice] 1#1: nginx/1.21.5
+2023/03/03 20:20:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/03 20:20:22 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/03 20:20:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/03 20:20:22 [notice] 1#1: start worker processes
+2023/03/03 20:20:22 [notice] 1#1: start worker process 22
+2023/03/03 20:20:22 [notice] 1#1: start worker process 23
+2023/03/03 20:20:22 [notice] 1#1: start worker process 24
+2023/03/03 20:20:22 [notice] 1#1: start worker process 25
+2023/03/03 20:20:43 [error] 23#23: *2 open() "/var/www/html/public/admin" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin HTTP/1.1", host: "www.kitengine.com"
+2023/03/04 15:13:16 [notice] 22#22: signal 15 (SIGTERM) received, exiting
+2023/03/04 15:13:16 [notice] 22#22: exiting
+2023/03/04 15:13:16 [notice] 25#25: signal 15 (SIGTERM) received, exiting
+2023/03/04 15:13:16 [notice] 25#25: exiting
+2023/03/04 15:13:16 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2023/03/09 13:42:53 [notice] 1#1: using the "epoll" event method
+2023/03/09 13:42:53 [notice] 1#1: nginx/1.21.5
+2023/03/09 13:42:53 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/09 13:42:53 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/09 13:42:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/09 13:42:53 [notice] 1#1: start worker processes
+2023/03/09 13:42:53 [notice] 1#1: start worker process 22
+2023/03/09 13:42:53 [notice] 1#1: start worker process 23
+2023/03/09 13:42:53 [notice] 1#1: start worker process 24
+2023/03/09 13:42:53 [notice] 1#1: start worker process 25
+2023/03/09 15:45:50 [error] 22#22: *4 open() "/var/www/html/public/admin" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin HTTP/1.1", host: "www.kitengine.com"
+2023/03/09 17:24:41 [error] 22#22: *28 open() "/var/www/html/public/aaa" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /aaa HTTP/1.1", host: "www.kitengine.com"
+2023/03/09 17:24:45 [error] 22#22: *28 open() "/var/www/html/public/test" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /test HTTP/1.1", host: "www.kitengine.com"
+2023/03/10 15:27:11 [error] 23#23: *84 open() "/var/www/html/public/index/index" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /index/index HTTP/1.1", host: "www.kitengine.com"
+2023/03/10 15:27:14 [error] 23#23: *84 open() "/var/www/html/public/index/index/index" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /index/index/index HTTP/1.1", host: "www.kitengine.com"
+2023/03/10 15:27:52 [error] 23#23: *84 open() "/var/www/html/public/index/index" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /index/index HTTP/1.1", host: "www.kitengine.com"
+2023/03/10 15:36:12 [error] 23#23: *94 open() "/var/www/html/public/index/Index/index" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /index/Index/index HTTP/1.1", host: "www.kitengine.com"
+2023/03/10 15:36:35 [error] 23#23: *94 open() "/var/www/html/public/index/index/index" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /index/index/index HTTP/1.1", host: "www.kitengine.com"
+2023/03/10 15:37:32 [error] 23#23: *94 open() "/var/www/html/public/index/index/index" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /index/index/index HTTP/1.1", host: "www.kitengine.com"
+2023/03/10 15:38:29 [error] 23#23: *94 open() "/var/www/html/public/index" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /index HTTP/1.1", host: "www.kitengine.com"
+2023/03/10 15:41:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/10 15:41:26 [notice] 23#23: gracefully shutting down
+2023/03/10 15:41:26 [notice] 24#24: gracefully shutting down
+2023/03/10 15:41:26 [notice] 25#25: gracefully shutting down
+2023/03/10 15:41:26 [notice] 22#22: gracefully shutting down
+2023/03/10 15:41:26 [notice] 23#23: exiting
+2023/03/10 15:41:26 [notice] 25#25: exiting
+2023/03/10 15:41:26 [notice] 24#24: exiting
+2023/03/10 15:41:26 [notice] 22#22: exiting
+2023/03/10 15:41:26 [notice] 25#25: exit
+2023/03/10 15:41:26 [notice] 24#24: exit
+2023/03/10 15:41:26 [notice] 22#22: exit
+2023/03/10 15:41:26 [notice] 23#23: exit
+2023/03/10 15:41:26 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/10 15:41:26 [notice] 1#1: worker process 22 exited with code 0
+2023/03/10 15:41:26 [notice] 1#1: worker process 23 exited with code 0
+2023/03/10 15:41:26 [notice] 1#1: worker process 24 exited with code 0
+2023/03/10 15:41:26 [notice] 1#1: worker process 25 exited with code 0
+2023/03/10 15:41:26 [notice] 1#1: exit
+2023/03/10 15:41:28 [notice] 1#1: using the "epoll" event method
+2023/03/10 15:41:28 [notice] 1#1: nginx/1.21.5
+2023/03/10 15:41:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/10 15:41:28 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/10 15:41:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/10 15:41:28 [notice] 1#1: start worker processes
+2023/03/10 15:41:28 [notice] 1#1: start worker process 22
+2023/03/10 15:41:28 [notice] 1#1: start worker process 23
+2023/03/10 15:41:28 [notice] 1#1: start worker process 24
+2023/03/10 15:41:28 [notice] 1#1: start worker process 25
+2023/03/10 16:11:15 [error] 22#22: *37 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:11:15 [error] 23#23: *38 open() "/var/www/html/public/umi.aa5b9b84.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.aa5b9b84.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:11:27 [error] 22#22: *37 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:11:45 [error] 22#22: *41 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:11:45 [error] 22#22: *41 open() "/var/www/html/public/umi.aa5b9b84.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.aa5b9b84.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:13:32 [error] 22#22: *43 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:13:32 [error] 22#22: *43 open() "/var/www/html/public/umi.aa5b9b84.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.aa5b9b84.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:13:35 [error] 23#23: *44 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:13:35 [error] 23#23: *44 open() "/var/www/html/public/umi.aa5b9b84.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.aa5b9b84.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:13:41 [error] 22#22: *43 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:13:45 [error] 22#22: *43 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:13:45 [error] 22#22: *43 open() "/var/www/html/public/umi.aa5b9b84.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.aa5b9b84.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:25:59 [error] 23#23: *48 open() "/var/www/html/public/admin/user/664.a7753c26.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/664.a7753c26.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:25:59 [error] 22#22: *49 open() "/var/www/html/public/admin/user/664.c0ba8f89.chunk.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/664.c0ba8f89.chunk.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:25:59 [error] 24#24: *54 open() "/var/www/html/public/admin/user/267.e077a12a.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/267.e077a12a.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:25:59 [error] 23#23: *51 open() "/var/www/html/public/admin/user/799.95f72dad.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/799.95f72dad.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:25:59 [error] 24#24: *52 open() "/var/www/html/public/admin/user/311.8ba55b63.chunk.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/311.8ba55b63.chunk.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:25:59 [error] 23#23: *48 open() "/var/www/html/public/admin/user/t__plugin-layout__Layout.8984797e.chunk.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/t__plugin-layout__Layout.8984797e.chunk.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:25:59 [error] 24#24: *53 open() "/var/www/html/public/admin/user/311.7c624535.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/311.7c624535.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:25:59 [error] 23#23: *51 open() "/var/www/html/public/admin/user/t__plugin-layout__Layout.1a02416e.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/t__plugin-layout__Layout.1a02416e.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:25:59 [error] 24#24: *54 open() "/var/www/html/public/admin/user/918.cbbb5316.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/918.cbbb5316.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:29:02 [error] 23#23: *56 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login/"
+2023/03/10 16:29:02 [error] 22#22: *57 open() "/var/www/html/public/umi.99a426d3.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.99a426d3.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login/"
+2023/03/10 16:29:05 [error] 23#23: *56 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:29:05 [error] 22#22: *57 open() "/var/www/html/public/umi.99a426d3.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.99a426d3.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:29:12 [error] 23#23: *56 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:29:12 [error] 23#23: *56 open() "/var/www/html/public/umi.99a426d3.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.99a426d3.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:29:13 [error] 22#22: *57 open() "/var/www/html/public/umi.2117200f.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.2117200f.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:29:14 [error] 22#22: *57 open() "/var/www/html/public/umi.99a426d3.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /umi.99a426d3.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/"
+2023/03/10 16:29:52 [error] 23#23: *56 open() "/var/www/html/public/admin/user/664.c0ba8f89.chunk.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/664.c0ba8f89.chunk.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:29:52 [error] 22#22: *57 open() "/var/www/html/public/admin/user/664.a7753c26.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/664.a7753c26.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:29:52 [error] 23#23: *56 open() "/var/www/html/public/admin/user/t__plugin-layout__Layout.8984797e.chunk.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/t__plugin-layout__Layout.8984797e.chunk.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:29:52 [error] 24#24: *67 open() "/var/www/html/public/admin/user/267.e077a12a.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/267.e077a12a.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:29:52 [error] 25#25: *69 open() "/var/www/html/public/admin/user/311.7c624535.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/311.7c624535.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:29:52 [error] 22#22: *57 open() "/var/www/html/public/admin/user/918.cbbb5316.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/918.cbbb5316.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:29:52 [error] 23#23: *56 open() "/var/www/html/public/admin/user/t__plugin-layout__Layout.1a02416e.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/t__plugin-layout__Layout.1a02416e.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:29:52 [error] 24#24: *68 open() "/var/www/html/public/admin/user/311.8ba55b63.chunk.css" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/311.8ba55b63.chunk.css HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 16:29:52 [error] 24#24: *70 open() "/var/www/html/public/admin/user/799.95f72dad.async.js" failed (2: No such file or directory), client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/user/799.95f72dad.async.js HTTP/1.1", host: "www.kitengine.com", referrer: "http://www.kitengine.com/admin/user/login"
+2023/03/10 20:35:36 [error] 22#22: *100 directory index of "/var/www/html/public/admin/" is forbidden, client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/ HTTP/1.1", host: "www.kitengine.com"
+2023/03/10 20:44:19 [error] 23#23: *113 directory index of "/var/www/html/public/admin/" is forbidden, client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/ HTTP/1.1", host: "www.kitengine.com"
+2023/03/10 20:44:21 [error] 23#23: *113 directory index of "/var/www/html/public/admin/" is forbidden, client: 10.10.0.1, server: www.kitengine.com, request: "GET /admin/ HTTP/1.1", host: "www.kitengine.com"
+2023/03/12 09:02:11 [notice] 1#1: using the "epoll" event method
+2023/03/12 09:02:11 [notice] 1#1: nginx/1.21.5
+2023/03/12 09:02:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/12 09:02:11 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/12 09:02:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/12 09:02:11 [notice] 1#1: start worker processes
+2023/03/12 09:02:11 [notice] 1#1: start worker process 22
+2023/03/12 09:02:11 [notice] 1#1: start worker process 23
+2023/03/12 09:02:11 [notice] 1#1: start worker process 24
+2023/03/12 09:02:11 [notice] 1#1: start worker process 25
+2023/03/12 09:04:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/12 09:04:12 [notice] 22#22: gracefully shutting down
+2023/03/12 09:04:12 [notice] 23#23: gracefully shutting down
+2023/03/12 09:04:12 [notice] 24#24: gracefully shutting down
+2023/03/12 09:04:12 [notice] 25#25: gracefully shutting down
+2023/03/12 09:04:12 [notice] 22#22: exiting
+2023/03/12 09:04:12 [notice] 23#23: exiting
+2023/03/12 09:04:12 [notice] 24#24: exiting
+2023/03/12 09:04:12 [notice] 25#25: exiting
+2023/03/12 09:04:12 [notice] 22#22: exit
+2023/03/12 09:04:12 [notice] 23#23: exit
+2023/03/12 09:04:12 [notice] 24#24: exit
+2023/03/12 09:04:12 [notice] 25#25: exit
+2023/03/12 09:04:12 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/12 09:04:12 [notice] 1#1: worker process 22 exited with code 0
+2023/03/12 09:04:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/12 09:04:12 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/12 09:04:12 [notice] 1#1: worker process 23 exited with code 0
+2023/03/12 09:04:12 [notice] 1#1: worker process 24 exited with code 0
+2023/03/12 09:04:12 [notice] 1#1: worker process 25 exited with code 0
+2023/03/12 09:04:12 [notice] 1#1: exit
+2023/03/12 09:38:48 [notice] 1#1: using the "epoll" event method
+2023/03/12 09:38:48 [notice] 1#1: nginx/1.21.5
+2023/03/12 09:38:48 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/12 09:38:48 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/12 09:38:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/12 09:38:48 [notice] 1#1: start worker processes
+2023/03/12 09:38:48 [notice] 1#1: start worker process 22
+2023/03/12 09:38:48 [notice] 1#1: start worker process 23
+2023/03/12 09:38:48 [notice] 1#1: start worker process 24
+2023/03/12 09:38:48 [notice] 1#1: start worker process 25
+2023/03/12 09:39:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/12 09:39:19 [notice] 23#23: gracefully shutting down
+2023/03/12 09:39:19 [notice] 23#23: exiting
+2023/03/12 09:39:19 [notice] 22#22: gracefully shutting down
+2023/03/12 09:39:19 [notice] 25#25: gracefully shutting down
+2023/03/12 09:39:19 [notice] 25#25: exiting
+2023/03/12 09:39:19 [notice] 24#24: gracefully shutting down
+2023/03/12 09:39:19 [notice] 23#23: exit
+2023/03/12 09:39:19 [notice] 22#22: exiting
+2023/03/12 09:39:19 [notice] 25#25: exit
+2023/03/12 09:39:19 [notice] 24#24: exiting
+2023/03/12 09:39:19 [notice] 22#22: exit
+2023/03/12 09:39:19 [notice] 24#24: exit
+2023/03/12 09:39:19 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/12 09:39:19 [notice] 1#1: worker process 25 exited with code 0
+2023/03/12 09:39:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/12 09:39:19 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/12 09:39:19 [notice] 1#1: worker process 22 exited with code 0
+2023/03/12 09:39:19 [notice] 1#1: worker process 23 exited with code 0
+2023/03/12 09:39:19 [notice] 1#1: worker process 24 exited with code 0
+2023/03/12 09:39:19 [notice] 1#1: exit
+2023/03/22 16:15:40 [notice] 1#1: using the "epoll" event method
+2023/03/22 16:15:40 [notice] 1#1: nginx/1.21.5
+2023/03/22 16:15:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/22 16:15:40 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/22 16:15:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/22 16:15:40 [notice] 1#1: start worker processes
+2023/03/22 16:15:40 [notice] 1#1: start worker process 22
+2023/03/22 16:15:40 [notice] 1#1: start worker process 23
+2023/03/22 16:15:40 [notice] 1#1: start worker process 24
+2023/03/22 16:15:40 [notice] 1#1: start worker process 25
+2023/03/30 13:21:03 [notice] 1#1: using the "epoll" event method
+2023/03/30 13:21:03 [notice] 1#1: nginx/1.21.5
+2023/03/30 13:21:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/30 13:21:03 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/30 13:21:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/30 13:21:03 [notice] 1#1: start worker processes
+2023/03/30 13:21:03 [notice] 1#1: start worker process 22
+2023/03/30 13:21:03 [notice] 1#1: start worker process 23
+2023/03/30 13:21:03 [notice] 1#1: start worker process 24
+2023/03/30 13:21:03 [notice] 1#1: start worker process 25
+2023/03/31 11:09:49 [notice] 1#1: using the "epoll" event method
+2023/03/31 11:09:49 [notice] 1#1: nginx/1.21.5
+2023/03/31 11:09:49 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/31 11:09:49 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/03/31 11:09:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/31 11:09:49 [notice] 1#1: start worker processes
+2023/03/31 11:09:49 [notice] 1#1: start worker process 21
+2023/03/31 11:09:49 [notice] 1#1: start worker process 22
+2023/03/31 11:09:49 [notice] 1#1: start worker process 23
+2023/03/31 11:09:49 [notice] 1#1: start worker process 24
+2023/04/01 20:17:09 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2023/04/04 10:35:43 [notice] 1#1: using the "epoll" event method
+2023/04/04 10:35:43 [notice] 1#1: nginx/1.21.5
+2023/04/04 10:35:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/04 10:35:43 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/04/04 10:35:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/04 10:35:43 [notice] 1#1: start worker processes
+2023/04/04 10:35:43 [notice] 1#1: start worker process 22
+2023/04/04 10:35:43 [notice] 1#1: start worker process 23
+2023/04/04 10:35:43 [notice] 1#1: start worker process 24
+2023/04/04 10:35:43 [notice] 1#1: start worker process 25
